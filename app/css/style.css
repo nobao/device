@@ -381,6 +381,7 @@ input[type="radio"].visually-hidden {
 .promo-slider {
   position: relative;
   margin-top: -125px;
+  margin-bottom: 110px;
   padding-right: 60px;
 }
 
@@ -522,4 +523,59 @@ input[type="radio"].visually-hidden {
 
 .promo-slider-item.third {
   visibility: hidden;
+}
+
+.popular-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 80px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.popular-list a {
+  display: flex;
+  flex-flow: column;
+  width: 160px;
+
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.popular-item-image {
+  margin-bottom: 36px;
+  width: 160px;
+  height: 160px;
+
+  background-color: #f7e296;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.popular-item-image.one {
+  background-image: url("/img/popular-1.svg");
+}
+
+.popular-item-image.two {
+  background-image: url("/img/popular-2.svg");
+  background-position: center bottom;
+}
+
+.popular-item-image.three {
+  background-image: url("/img/popular-3.svg");
+}
+
+.popular-item-image.four {
+  background-image: url("/img/popular-4.svg");
+}
+
+.popular-item-image.five {
+  background-image: url("/img/popular-5.svg");
+}
+
+.popular-item-image.six {
+  background-image: url("/img/popular-6.svg");
 }
