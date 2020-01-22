@@ -76,7 +76,7 @@
       <section class="promo-slider">
         <h2 class="visually-hidden">Промо-слайдер</h2>
   
-        <div class="promo-slider-item first">
+        <div class="promo-slider-item first show-item">
           <div class="column-left">
             <img class="promo-slider-image" src="img/slider-1.png" alt="Самая длинная палка для селфи" width="384" height="486">
           </div>
@@ -114,7 +114,7 @@
           
         </div>
   
-        <div class="promo-slider-item second">
+        <div class="promo-slider-item second hide-item">
           <div class="column-left">
             <img class="promo-slider-image" src="img/slider-2.png" alt="Фитнес-браслет" width="345" height="485">
           </div>
@@ -147,7 +147,7 @@
           
         </div>
   
-        <div class="promo-slider-item third">
+        <div class="promo-slider-item third hide-item">
           <div class="column-left">
             <img class="promo-slider-image" src="img/slider-3.png" alt="Квадрокоптер" width="526" height="334">
           </div>
@@ -233,21 +233,21 @@
 
         <h2 class="visually-hidden">Сервисы</h2>
         <ul class="services-list">
-          <li class="services-item-title active"><a class="button" href="#">Доставка</a></li>
-          <li class="services-item-title"><a class="button" href="#">Гарантия</a></li>
-          <li class="services-item-title"><a class="button" href="#">Кредит</a></li>
+          <li class="services-item-title delivery active"><a class="button" href="#">Доставка</a></li>
+          <li class="services-item-title guarantee"><a class="button" href="#">Гарантия</a></li>
+          <li class="services-item-title credit"><a class="button" href="#">Кредит</a></li>
         </ul>
 
         <div class="services-items">
-          <div class="services-item-block delivery">
+          <div class="services-item-block delivery show-item">
             <h3>Доставка</h3>
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
           </div>
-          <div class="services-item-block guarantee">
+          <div class="services-item-block guarantee hide-item">
             <h3>Гарантия</h3>
             <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.<br>Товар, не дом, конечно же.</p>
           </div>
-          <div class="services-item-block credit">
+          <div class="services-item-block credit hide-item">
             <h3>Кредит</h3>
             <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
           </div>
@@ -325,7 +325,7 @@
           <li class="footer-site-navigation-item"><a href="#">Контакты</a></li>
         </ul>
     
-        <span>Тел.: +7 (495) 495-95-95</span>
+        <span><a class="footer-tel">Тел.: +7 (495) 495-95-95</a></span>
       </div>
     
       <div class="footer-bottom-line">
@@ -343,7 +343,7 @@
 
   <!-- Модальные окна: Напишите нам и Карта -->
 
-  <div class="modal-wrapper write-us">
+  <div class="modal-wrapper write-us hide-item">
     <section class="modal modal-write-us">
       <h2 class="visually-hidden">Напишите нам</h2>
       <form action="https://echo.htmlacademy.ru" method="post">
@@ -365,13 +365,15 @@
     </section>
   </div>
   
-  <div class="modal-wrapper map">
+  <div class="modal-wrapper map hide-item">
     <section class="modal modal-map">
       <h2 class="visually-hidden">Схема проезда</h2>
       <img src="img/map-big.jpg" alt="Схема проезда в офис интернет-магазина Device, находящегося по адресу: город Москва, улица Строителей дом 15" width="960" height="559">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.018560193436!2d37.526952703306286!3d55.68737585802996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsIDExOTMxMQ!5e0!3m2!1sru!2sru!4v1579636069680!5m2!1sru!2sru" width="960" height="559" style="border:0;" allowfullscreen=""></iframe>
       <button class="modal-close">Закрыть</button>
     </section>
   </div>
   
+  <script src="js/script.js"></script>
 </body>
 </html>

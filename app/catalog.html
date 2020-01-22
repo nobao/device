@@ -110,9 +110,10 @@
             <form class="filter" action="https://echo.htmlacademy.ru" method="get">
               <fieldset class="price-filter">
                 <legend>Стоимость</legend>
-                <div class="price-range"></div>
-                <div class="price-min"></div>
-                <div class="price-max"></div>
+                <div class="price-range">
+                  <div class="price-min"></div>
+                  <div class="price-max"></div>
+                </div>
                 <span class="min-value">от 0</span>
                 <span class="max-value">до 5000</span>
               </fieldset>
@@ -133,7 +134,7 @@
     
               <fieldset class="bluetooth-filter">
                 <legend>Bluetooth</legend>
-                <input class="visually-hidden filter-radio" type="radio" name="have-bluetooth" id="bluetooth-yes">
+                <input class="visually-hidden filter-radio" type="radio" name="have-bluetooth" id="bluetooth-yes" checked>
                 <label for="bluetooth-yes">Есть</label>
                 <input class="visually-hidden filter-radio" type="radio" name="have-bluetooth" id="bluetooth-no">
                 <label for="bluetooth-no">Нет</label>
@@ -247,7 +248,7 @@
           <li class="footer-site-navigation-item"><a href="#">Контакты</a></li>
         </ul>
     
-        <span>Тел.: +7 (495) 495-95-95</span>
+        <span><a class="footer-tel">Тел.: +7 (495) 495-95-95</a></span>
       </div>
     
       <div class="footer-bottom-line">
@@ -265,7 +266,7 @@
 
   <!-- Модальные окна: Напишите нам и Карта -->
 
-  <div class="modal-wrapper write-us">
+  <!-- <div class="modal-wrapper write-us">
     <section class="modal modal-write-us">
       <h2 class="visually-hidden">Напишите нам</h2>
       <form action="https://echo.htmlacademy.ru" method="post">
@@ -293,7 +294,7 @@
       <img src="img/map-big.jpg" alt="Схема проезда в офис интернет-магазина Device, находящегося по адресу: город Москва, улица Строителей дом 15" width="960" height="559">
       <button class="modal-close">Закрыть</button>
     </section>
-  </div>
+  </div> -->
   
 </body>
 </html>
